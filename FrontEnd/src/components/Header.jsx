@@ -3,10 +3,10 @@ import React from "react";
 export default function Header() {
   return (
     <div className="flex flex-col items-center mt-6">
-      {/* Logo */}
+      
       <img src="/assets/logo.gif" alt="Skribbl.io Logo" className="w-[320px] h-auto" />
 
-      {/* Colored avatars below logo */}
+     
       <div className="flex gap-2 mt-2">
         <div className="w-7 h-7 rounded-full bg-red-500 border-2 border-white"></div>
         <div className="w-7 h-7 rounded-full bg-orange-400 border-2 border-white"></div>

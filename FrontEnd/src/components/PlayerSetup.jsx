@@ -1,4 +1,4 @@
-// components/PlayerSetup.jsx
+
 import React, { useState } from "react";
 
 export default function PlayerSetup({ onPlay }) {
@@ -7,7 +7,7 @@ export default function PlayerSetup({ onPlay }) {
 
   return (
     <div className="bg-blue-800/80 rounded-md shadow-2xl mt-6 p-5 w-[430px]">
-      {/* Top row: name input + language selector */}
+      
       <div className="flex gap-2">
         <input
           type="text"
@@ -37,7 +37,6 @@ export default function PlayerSetup({ onPlay }) {
         </div>
       </div>
 
-      {/* Avatar stage */}
       <div className="relative mt-4">
         <div className="absolute right-2 -top-2 text-white/90">❄️</div>
         <div className="bg-blue-900/60 border-2 border-blue-200/50 rounded-sm h-[220px] flex items-center justify-center">
@@ -53,7 +52,6 @@ export default function PlayerSetup({ onPlay }) {
         </div>
       </div>
 
-      {/* Buttons */}
       <button className="bg-green-400 hover:bg-green-300 text-black tracking-wide text-2xl font-extrabold w-full py-3 rounded mt-4" onClick={() => onPlay?.(name)}>
         Play!
       </button>

@@ -64,7 +64,6 @@ export default function Game({ playerName = "You", onExit }) {
 
   return (
     <div className="w-full max-w-[1200px] mx-auto">
-      {/* Top bar */}
       <div className="flex items-center justify-between bg-blue-800/80 rounded-md px-4 py-2 mt-4">
         <div className="flex items-center gap-2">
           <div className="w-8 h-8 rounded-full bg-white text-blue-900 font-bold flex items-center justify-center">36</div>
@@ -82,7 +81,6 @@ export default function Game({ playerName = "You", onExit }) {
       </div>
 
       <div className="mt-3 grid grid-cols-12 gap-3">
-        {/* Players left */}
         <div className="col-span-2 bg-blue-800/80 rounded-md p-2">
           {players.map((p, i) => (
             <div key={i} className="flex items-center justify-between px-2 py-1 border-b border-white/10">
@@ -98,7 +96,7 @@ export default function Game({ playerName = "You", onExit }) {
           ))}
         </div>
 
-        {/* Canvas center */}
+        
         <div className="col-span-7 bg-white rounded-md overflow-hidden">
           <div className="relative">
             <canvas
@@ -116,7 +114,7 @@ export default function Game({ playerName = "You", onExit }) {
           </div>
         </div>
 
-        {/* Chat right */}
+       
         <div className="col-span-3 bg-blue-800/80 rounded-md flex flex-col">
           <div className="flex-1 overflow-y-auto p-2 space-y-1 text-sm">
             <div className="opacity-90">Lily is drawing now!</div>

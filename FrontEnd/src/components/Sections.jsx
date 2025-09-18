@@ -1,11 +1,10 @@
-// components/Sections.jsx
+
 import React from "react";
 
 export default function Sections() {
   return (
     <div className="w-full mt-10 mb-8 flex justify-center">
       <div className="w-full max-w-[1100px] grid grid-cols-1 md:grid-cols-3 gap-6 px-6 md:px-0 text-sm">
-        {/* About */}
         <div className="bg-blue-800/80 rounded-md shadow-2xl p-6 relative">
           <div className="absolute -left-3 -top-3 text-3xl">❓</div>
           <h2 className="text-2xl font-extrabold mb-3">About</h2>
@@ -24,7 +23,7 @@ export default function Sections() {
           </p>
         </div>
 
-        {/* News */}
+      
         <div className="bg-blue-800/80 rounded-md shadow-2xl p-6 relative">
           <div className="absolute -left-3 -top-3 text-3xl">📰</div>
           <h2 className="text-2xl font-extrabold mb-3">News</h2>
@@ -66,7 +65,7 @@ export default function Sections() {
           </div>
         </div>
 
-        {/* How to play */}
+  
         <div className="bg-blue-800/80 rounded-md shadow-2xl p-6 relative flex flex-col items-center">
           <div className="absolute -left-3 -top-3 text-3xl">✏️</div>
           <h2 className="text-2xl font-extrabold mb-3 self-start">How to play</h2>
